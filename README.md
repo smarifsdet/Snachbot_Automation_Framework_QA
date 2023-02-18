@@ -1,4 +1,4 @@
-# SimpleFramework
+# SnachbotAutomationTestFramework
 ### Test Development Set up
 
 ### Getting started with Maven
