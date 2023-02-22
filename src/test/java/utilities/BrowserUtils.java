@@ -77,9 +77,21 @@ public class BrowserUtils {
 
               public void scrollUp() {
 
-                             js.executeScript("window.scrollBy(0,350)","");
+                             js.executeScript("window.scrollBy(0,-350)","");
 
               }
+              
+              public void scrollDown() {
+
+                  js.executeScript("window.scrollBy(0,350)","");
+
+   }
+              
+              public void scrollToView(WebElement element) {
+
+            	  js.executeScript("arguments[0].scrollIntoView();", element);
+
+   }
              
 
                             
